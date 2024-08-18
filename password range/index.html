@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5acd0c61c7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <input type="password" id="password" oninput="strengthChecker()">
+            <span id="toggle" onclick="toggle()">
+                <i class="fa-solid fa-lock"></i>
+            </span>
+            <div id="strength-bar"></div>
+        </div>
+        <p id="msg">Sample message</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
